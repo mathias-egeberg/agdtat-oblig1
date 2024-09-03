@@ -1,5 +1,9 @@
 public class Oblig1 {
 
+    public static void main(String[] args) {
+        System.out.println(gruppeMedlemmer());
+    }
+
     //Oppgave 0
     public static int gruppeMedlemmer(){
         return 2;
@@ -11,12 +15,6 @@ public class Oblig1 {
         return 0;
     }
 
-
-
-
-    public static void main(String[] args) {
-        System.out.println(gruppeMedlemmer());
-    }
 
 
 }
