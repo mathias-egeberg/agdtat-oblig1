@@ -39,7 +39,6 @@ public class Oblig1 {
         if(a.length == 0){
             throw new NoSuchElementException("Array er tomt - ingen ombyttninger");
         }
-
         int antall = 0;
         for (int i = 1; i < a.length; i++){
             if (a[i-1]>a[i]){
